@@ -103,7 +103,7 @@ class Elemento:
             return
         
         if element == -1 and len(self.ELEMENT_LIST) == 2:
-            self.jogador.life = 1 + self.horda
+            self.jogador.life = 2 + self.horda
             PersonagemYellow((32, 32), (255, 255, 0), self.gerar_posicao(self.jogador), f'yellowChar\\')
             PersonagemRed((32, 32), (255, 0, 0), self.gerar_posicao(self.jogador), f'redChar\\')
             PersonagemBlue((32, 32), (0, 255, 255), self.gerar_posicao(self.jogador), f'blueChar\\')
